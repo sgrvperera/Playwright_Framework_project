@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "types": ["node", "@playwright/test"],
+    "baseUrl": "."
+  },
+  "include": [
+    "tests/**/*.ts",
+    "pages/**/*.ts",
+    "utils/**/*.ts",
+    "api/**/*.ts",
+    "fixtures/**/*.ts",
+    "playwright.config.ts"
+  ]
+}
